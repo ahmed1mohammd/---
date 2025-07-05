@@ -8,7 +8,6 @@ const Footer = () => {
     { name: 'الرئيسية', href: '#home' },
     { name: 'من نحن', href: '#about' },
     { name: 'المنتجات', href: '#products' },
-    { name: 'العروض', href: '#offers' },
     { name: 'اتصل بنا', href: '#contact' }
   ];
 
@@ -38,13 +37,13 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer */}
-      <div className="container mx-auto px-4 py-16">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+      <div className="container mx-auto px-4 py-12 lg:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="text-2xl font-bold">
-                <span className="text-primary">الذهبي</span>
+              <div className="text-xl lg:text-2xl font-bold">
+                <span className="text-primary">الحارثي</span>
                 <span className="text-white mr-2">للأثاث والتكييف</span>
               </div>
             </div>
@@ -150,7 +149,7 @@ const Footer = () => {
               احصل على آخر العروض والمنتجات الجديدة مباشرة في بريدك الإلكتروني
             </p>
             
-            <div className="max-w-md mx-auto flex gap-4">
+            <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
               <input
                 type="email"
                 placeholder="أدخل بريدك الإلكتروني"
@@ -169,7 +168,15 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} الذهبي للأثاث والتكييف. جميع الحقوق محفوظة.
+              © {currentYear} الحارثي للأثاث والتكييف. جميع الحقوق محفوظة. | 
+              <a 
+                href="https://wa.me/201023973147"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-yellow-400 transition-colors ml-1"
+              >
+                © CodeSage
+              </a>
             </div>
             
             <div className="flex gap-6 text-sm">
