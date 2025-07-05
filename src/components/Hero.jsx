@@ -13,29 +13,29 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="text-center lg:text-right fade-in">
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+            <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
               <span className="text-white">أثاث</span>
               <span className="text-primary block">فاخر</span>
               <span className="text-white">ومكيفات حديثة</span>
             </h1>
             
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
+            <p className="text-base sm:text-xl text-gray-300 mb-6 sm:mb-8 leading-relaxed">
               نقدم لكم أجود أنواع الأثاث المنزلي والمكتبي بالإضافة إلى أحدث مكيفات الهواء 
               بأفضل الأسعار وأعلى معايير الجودة
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
-              <button className="bg-primary text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-all duration-300 hover-scale flex items-center justify-center gap-2">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-8 sm:mb-12">
+              <button className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-yellow-400 transition-all duration-300 hover-scale flex items-center justify-center gap-2">
                 تصفح المنتجات
                 <ArrowLeft size={20} />
               </button>
-              <button className="border-2 border-primary text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary hover:text-black transition-all duration-300">
+              <button className="border-2 border-primary text-primary px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-base sm:text-lg hover:bg-primary hover:text-black transition-all duration-300">
                 اتصل بنا الآن
               </button>
             </div>
             
             {/* Features */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
               <div className="flex items-center justify-center lg:justify-start gap-3 text-gray-300">
                 <div className="bg-primary p-2 rounded-full">
                   <Star className="text-black" size={20} />

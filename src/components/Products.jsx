@@ -127,31 +127,10 @@ const Products = () => {
                   <div className="text-xl sm:text-2xl font-bold text-primary">
                     {product.price} ريال
                   </div>
-                  <a 
-                    href="https://wa.me/201023973147"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-primary text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors flex items-center gap-2 whitespace-nowrap"
-                  >
-                    طلب الآن
-                    <ArrowLeft size={16} />
-                  </a>
                 </div>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* View All Button */}
-        <div className="text-center mt-12">
-          <a 
-            href="https://wa.me/201023973147"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-transparent border-2 border-primary text-primary px-8 py-4 rounded-lg font-bold text-lg hover:bg-primary hover:text-black transition-all duration-300"
-          >
-            عرض جميع المنتجات
-          </a>
         </div>
       </div>
     </section>

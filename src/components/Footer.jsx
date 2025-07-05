@@ -37,12 +37,12 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer */}
-      <div className="container mx-auto px-4 py-12 lg:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 py-8 lg:py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <div className="text-xl lg:text-2xl font-bold">
+              <div className="text-base lg:text-xl font-bold">
                 <span className="text-primary">الحارثي</span>
                 <span className="text-white mr-2">للأثاث والتكييف</span>
               </div>
@@ -70,7 +70,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-primary">روابط سريعة</h3>
+            <h3 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6 text-primary">روابط سريعة</h3>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -87,7 +87,7 @@ const Footer = () => {
 
           {/* Product Categories */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-primary">فئات المنتجات</h3>
+            <h3 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6 text-primary">فئات المنتجات</h3>
             <ul className="space-y-3">
               {productCategories.map((category, index) => (
                 <li key={index}>
@@ -104,7 +104,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-bold mb-6 text-primary">خدماتنا</h3>
+            <h3 className="text-lg lg:text-xl font-bold mb-4 lg:mb-6 text-primary">خدماتنا</h3>
             <ul className="space-y-3 mb-6">
               {services.map((service, index) => (
                 <li key={index}>
@@ -139,13 +139,13 @@ const Footer = () => {
       </div>
 
       {/* Newsletter */}
-      <div className="bg-black py-12">
+      <div className="bg-black py-8 sm:py-12">
         <div className="container mx-auto px-4">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">
+            <h3 className="text-lg sm:text-2xl font-bold text-white mb-2 sm:mb-4">
               اشترك في <span className="text-primary">نشرتنا الإخبارية</span>
             </h3>
-            <p className="text-gray-300 mb-6">
+            <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base">
               احصل على آخر العروض والمنتجات الجديدة مباشرة في بريدك الإلكتروني
             </p>
             
@@ -164,9 +164,9 @@ const Footer = () => {
       </div>
 
       {/* Bottom Footer */}
-      <div className="bg-gray-800 py-6">
+      <div className="bg-gray-800 py-4 sm:py-6">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-2 md:gap-0">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © {currentYear} الحارثي للأثاث والتكييف. جميع الحقوق محفوظة. | 
               <a 
