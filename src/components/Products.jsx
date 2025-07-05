@@ -124,9 +124,14 @@ const Products = () => {
                 <p className="text-gray-400 mb-4">{product.description}</p>
                 
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                  <div className="text-xl sm:text-2xl font-bold text-primary">
-                    {product.price} ريال
-                  </div>
+                  <a 
+                    href="https://wa.me/201023973147"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition-colors flex items-center gap-2 whitespace-nowrap"
+                  >
+                    تواصل عبر واتساب
+                  </a>
                 </div>
               </div>
             </div>
