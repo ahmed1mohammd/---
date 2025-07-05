@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,9 +21,16 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('تم إرسال رسالتك بنجاح! سنتواصل معك قريباً.');
+    const phoneNumber = '201023973147';
+    const waMessage = `الاسم: ${formData.name}%0Aالبريد الإلكتروني: ${formData.email}%0Aرقم الهاتف: ${formData.phone}%0Aالموضوع: ${formData.subject}%0Aالرسالة: ${formData.message}`;
+    const waUrl = `https://wa.me/${phoneNumber}?text=${waMessage}`;
+    window.open(waUrl, '_blank');
+    Swal.fire({
+      icon: 'success',
+      title: 'تم إرسال رسالتك بنجاح!',
+      text: 'تم تحويلك إلى واتساب لإكمال التواصل. سنرد عليك في أقرب وقت.',
+      confirmButtonText: 'حسناً'
+    });
   };
 
   const contactInfo = [
