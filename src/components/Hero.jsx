@@ -61,7 +61,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/src/assets/images/Eoi9iKAisxW6.jpg" 
+                src="/assets/images/Eoi9iKAisxW6.jpg" 
                 alt="أثاث فاخر" 
                 className="w-full h-96 lg:h-[600px] object-cover"
               />

@@ -8,7 +8,7 @@ const Offers = () => {
       title: 'عرض الصيف الكبير',
       discount: '50%',
       description: 'خصم يصل إلى 50% على جميع أطقم الصالونات الفاخرة',
-      image: '/src/assets/images/SZRElxtglKp3.jpg',
+      image: '/assets/images/SZRElxtglKp3.jpg',
       validUntil: '31 أغسطس 2025',
       type: 'limited'
     },
@@ -17,7 +17,7 @@ const Offers = () => {
       title: 'باقة المكتب الذكي',
       discount: '30%',
       description: 'مكتب + كرسي + خزانة بسعر مخفض وتقسيط مريح',
-      image: '/src/assets/images/vgXdiMgXd5US.jpg',
+      image: '/assets/images/vgXdiMgXd5US.jpg',
       validUntil: '15 سبتمبر 2025',
       type: 'bundle'
     },
@@ -26,7 +26,7 @@ const Offers = () => {
       title: 'مكيفات بأسعار الجملة',
       discount: '25%',
       description: 'خصم خاص على مكيفات الهواء مع ضمان 5 سنوات',
-      image: '/src/assets/images/V2rFWBKrvsmr.jpg',
+      image: '/assets/images/V2rFWBKrvsmr.jpg',
       validUntil: '30 سبتمبر 2025',
       type: 'seasonal'
     }

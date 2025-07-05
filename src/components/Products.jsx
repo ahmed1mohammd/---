@@ -17,7 +17,7 @@ const Products = () => {
       name: 'طقم صالون فاخر',
       category: 'home-furniture',
       price: '15,000',
-      image: "/images/Eoi9iKAisxW6.jpg",
+      image: "/assets/images/Eoi9iKAisxW6.jpg",
       description: 'طقم صالون عصري بتصميم أنيق ومواد عالية الجودة'
     },
     {
@@ -25,7 +25,7 @@ const Products = () => {
       name: 'مكتب رئيس أنيق',
       category: 'office-furniture',
       price: '8,500',
-      image: "/images/5orAehTZDESL.webp",
+      image: "/assets/images/5orAehTZDESL.webp",
       description: 'مكتب رئيس بتصميم حديث مع خزائن جانبية'
     },
     {
@@ -33,7 +33,7 @@ const Products = () => {
       name: 'مكيف سبليت LG',
       category: 'air-conditioners',
       price: '2,800',
-      image: "/images/mkzA9UcxUyM0.jpg",
+      image: "/assets/images/mkzA9UcxUyM0.jpg",
       description: 'مكيف هواء عالي الكفاءة مع تقنية الإنفيرتر'
     },
     {
@@ -41,7 +41,7 @@ const Products = () => {
       name: 'غرفة نوم كاملة',
       category: 'home-furniture',
       price: '12,000',
-      image: "/images/7vZDGNzx3tiS.jpg",
+      image: "/assets/images/7vZDGNzx3tiS.jpg",
       description: 'غرفة نوم كاملة بتصميم عصري وألوان هادئة'
     },
     {
@@ -49,7 +49,7 @@ const Products = () => {
       name: 'كرسي مكتب مريح',
       category: 'office-furniture',
       price: '1,200',
-      image: "/images/SI4el2FwFutE.webp",
+      image: "/assets/images/SI4el2FwFutE.webp",
       description: 'كرسي مكتب بتصميم أرغونومي للراحة القصوى'
     },
     {
@@ -57,7 +57,7 @@ const Products = () => {
       name: 'مكيف شباك موفر',
       category: 'air-conditioners',
       price: '1,500',
-      image: "/images/EpVYHBMNDlhz.jpg",
+      image: "/assets/images/EpVYHBMNDlhz.jpg",
       description: 'مكيف شباك بكفاءة عالية في استهلاك الطاقة'
     }
   ];
